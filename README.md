@@ -37,6 +37,8 @@ Run flutter build apk --release.
 
 ![pitch](https://github.com/user-attachments/assets/c4df4181-442d-4fad-8495-0bac516a487f)
 
+![WhatsApp Image 2025-12-20 at 01 40 24](https://github.com/user-attachments/assets/6a0f33af-4818-41fd-8745-672deb728792)
+
 ![matches](https://github.com/user-attachments/assets/81b0a314-7860-4ba2-b343-ac67be017843)
 
 ![standings](https://github.com/user-attachments/assets/8bf4952f-685e-4153-9fd2-b42ef309dcaa)
