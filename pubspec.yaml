@@ -1,0 +1,59 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.3
+  http: ^1.6.0
+  flutter_native_splash: ^2.4.7
+  intl: ^0.20.2
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
+  flutter_local_notifications: ^17.0.0
+  shared_preferences: ^2.5.4
+  image_picker: ^1.2.1
+  permission_handler: ^12.0.1
+  device_info_plus: ^12.3.0
+  firebase_auth: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# ✅ FIX 1: This must be at the very edge (Root Level)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/splash_logo.jpeg"
+
+# ✅ FIX 2: This was indented inside launcher_icons. Move to Root Level.
+flutter_native_splash:
+  color: "#000000" # Pure Black
+  image: assets/images/splash_logo.jpeg
+  android_12:
+    image: assets/images/splash_logo.jpeg
+    color: "#000000" # Pure Black for Android 12+
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  # ✅ FIX 3: Strict Indentation (2 spaces for assets, 4 spaces for the list item)
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: ClearfaceGothic
+      fonts:
+        - asset: fonts/Clearface Gothic LH 65 Medium.otf
+          weight: 500
+          style: normal

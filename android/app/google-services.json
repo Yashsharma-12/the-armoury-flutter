@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "541612211696",
+    "project_id": "the-armoury-a8be8",
+    "storage_bucket": "the-armoury-a8be8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541612211696:android:a8c1a2d9f2a49704d63135",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOtZxW9UreaKldPOMH3ylY5s81E__L1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
