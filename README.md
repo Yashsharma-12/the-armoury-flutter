@@ -1,16 +1,35 @@
-# flutter_application_1
+🔴⚪ The Armoury – The Ultimate Arsenal Fan Companion
+The Armoury is a high-performance, feature-rich mobile application designed specifically for Arsenal supporters. Built with Flutter and powered by a Node.js/MongoDB backend, it provides fans with real-time squad insights, matchday lineups, and a personalized profile experience.
 
-A new Flutter project.
+🚀 Key Features
+Live Matchday Pitch: A dynamic, visual representation of the Arsenal starting XI. The app intelligently fetches the current lineup from the API or defaults to the "Best XI" fallback.
 
-## Getting Started
+Player Database: Explore the full squad with detailed stats, player roles (GK, DEF, MID, FWD), and official squad numbers.
 
-This project is a starting point for a Flutter application.
+Secure Authentication: Full user registration and login system integrated with Firebase Auth and a custom MongoDB backend.
 
-A few resources to get you started if this is your first Flutter project:
+Guest Mode: Allows fans to explore the app instantly without creating an account.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Personalized Profiles: Users can set display names and upload custom profile pictures that sync across their local device and the cloud.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Matchday Settings: Admin-ready architecture that allows for real-time updates to the starting lineup and substitute bench.
+
+🛠️ Technical Stack
+Frontend: Flutter (Dart) with SharedPreferences for local session persistence.
+
+Backend: Node.js & Express.js hosted on Render.
+
+Database: MongoDB Atlas for player data and user profiles.
+
+Authentication: Firebase Authentication for secure handshakes.
+
+Storage: Multi-part image handling with Multer for profile management.
+
+📥 Installation & Build
+This repository contains the full source code for the Flutter application. To generate your own APK:
+
+Ensure you have the google-services.json in the android/app/ folder.
+
+Run flutter pub get.
+
+Run flutter build apk --release.
