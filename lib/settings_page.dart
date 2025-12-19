@@ -79,7 +79,7 @@ class _SettingsPageState extends State<SettingsPage> {
             children: [
               _buildSectionHeader("Appearance"),
               SwitchListTile(
-                activeColor: arsenalRed,
+                activeThumbColor: arsenalRed,
                 title: Text(
                   "Dark Mode",
                   style: TextStyle(
@@ -196,7 +196,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Widget _buildSwitchTile(String title, String subtitle, bool value, Function(bool) onChanged) {
     return SwitchListTile(
-      activeColor: arsenalRed,
+      activeThumbColor: arsenalRed,
       title: Text(
         title,
         style: TextStyle(
